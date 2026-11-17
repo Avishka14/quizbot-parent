@@ -1,0 +1,87 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+
+# BACKEND
+# Maven build output
+backend/target/
+!backend/src/main/**/target/
+!backend/src/test/**/target/
+
+# Maven wrapper
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Tool Suite / Eclipse
+backend/.apt_generated/
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings/
+backend/.springBeans
+backend/.sts4-cache/
+
+# IntelliJ IDEA
+backend/.idea/
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+
+# Java compiled files
+backend/*.class
+
+# Backend logs
+backend/logs/
+backend/*.log
+
+# Help files
+backend/HELP.md
+
+
+# FRONTEND
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/dist-ssr/
+
+# Local environment files
+frontend/*.local
+
+# Package manager logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+
+# EDITORS AND IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iws
+*.iml
+*.ipr
+
+
+# LOGS
+logs/
+*.log
+
+
+# OPERATING SYSTEM
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Temporary files
+*.tmp
+*.temp
