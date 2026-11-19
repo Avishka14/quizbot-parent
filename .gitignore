@@ -3,60 +3,35 @@
 .env.*
 !.env.example
 
-
 # BACKEND
-# Maven build output
-backend/target/
-!backend/src/main/**/target/
-!backend/src/test/**/target/
-
-# Maven wrapper
-backend/.mvn/wrapper/maven-wrapper.jar
-
-# Spring Tool Suite / Eclipse
-backend/.apt_generated/
-backend/.classpath
-backend/.factorypath
-backend/.project
-backend/.settings/
-backend/.springBeans
-backend/.sts4-cache/
-
-# IntelliJ IDEA
-backend/.idea/
-backend/*.iws
-backend/*.iml
-backend/*.ipr
-
-# Java compiled files
-backend/*.class
-
-# Backend logs
-backend/logs/
-backend/*.log
-
-# Help files
-backend/HELP.md
-
+quizbot-backend/target/
+quizbot-backend/.mvn/wrapper/maven-wrapper.jar
+quizbot-backend/.apt_generated/
+quizbot-backend/.classpath
+quizbot-backend/.factorypath
+quizbot-backend/.project
+quizbot-backend/.settings/
+quizbot-backend/.springBeans
+quizbot-backend/.sts4-cache/
+quizbot-backend/.idea/
+quizbot-backend/*.iws
+quizbot-backend/*.iml
+quizbot-backend/*.ipr
+quizbot-backend/*.class
+quizbot-backend/logs/
+quizbot-backend/*.log
+quizbot-backend/HELP.md
 
 # FRONTEND
-# Dependencies
-frontend/node_modules/
-
-# Build output
-frontend/dist/
-frontend/dist-ssr/
-
-# Local environment files
-frontend/*.local
-
-# Package manager logs
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/pnpm-debug.log*
-frontend/lerna-debug.log*
-
+quizbot-frontend/node_modules/
+quizbot-frontend/dist/
+quizbot-frontend/dist-ssr/
+quizbot-frontend/*.local
+quizbot-frontend/npm-debug.log*
+quizbot-frontend/yarn-debug.log*
+quizbot-frontend/yarn-error.log*
+quizbot-frontend/pnpm-debug.log*
+quizbot-frontend/lerna-debug.log*
 
 # EDITORS AND IDEs
 .idea/
