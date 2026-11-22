@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Avishka14/quizbot-v2-backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Avishka14/quizbot-v2-frontend
